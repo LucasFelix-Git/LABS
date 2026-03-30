@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.Cabecalho {
+    background: #1F1517;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1120px;
+    padding: 1.5rem 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+span {
+    font-family: Teko;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff
+}
+
+li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.github {
+    font-family: Teko;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff
+}
+
+body {
+    background: #181012;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover {
+    color: #a9a9a9 ;
+}
+
+h1 {
+    font-family: Teko;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+table {
+    border: 2px solid #ec5353;
+    width: 400px;
+    color: black;
+}
+
+tr {
+    background-color: aliceblue;
+    color: black;
+}
+
+td {
+    text-align: center;
+}
+
+.tabela {
+    color: black;
+}
+    
+    
